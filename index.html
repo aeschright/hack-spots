@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Hack Spots</title>
+		<title>Vegan-friendly Food Producers</title>
 		<script type="text/javascript" src="js/ICanHaz.js"></script> 
 		<script type="text/javascript" src='http://api.tiles.mapbox.com/mapbox.js/v1.0.0/mapbox.js'></script>
 		<script type="text/javascript" src='js/jquery.js '></script>
@@ -17,14 +17,14 @@
 	</head>
 <body>
 	<div id="wrapper">
-		<h1>Hack Spots</h1>
+		<h1>Vegan-friendly Food Producers</h1>
 		<div>
 			<ul class="nav">
-				<li><strong>The collected favorites of those who hack</strong></li>
+				<li><strong>In Portland and beyond</strong></li>
 				<li><a href="#info">INFO</a> -</li>
 				<li><a href="http://jlord.github.com/sheetsee.js" target="_blank">POWERED BY SHEETSEE.JS</a> -</li>
-				<li><a href="http://www.github.com/jlord/hack-spots" target="_blank">GITHUB</a> -</li>
-				<li><a href="http://www.twitter.com/jllord" target="_blank">@JLLORD</a></li>
+				<li><a href="http://www.github.com/aeschright/veg-food-spots" target="_blank">GITHUB</a> -</li>
+				<li><a href="http://www.twitter.com/spinnerin" target="_blank">@SPINNERIN</a></li>
 			</ul>
 		</div>
 		<div class="container">
@@ -72,12 +72,7 @@
 				<p class="colorText">{{address}}<p>
 				<p class="colorText">{{city}}, {{state}}</p>
 				<ul>
-			  	<li><span class="category">Wifi:</span> {{wifipassword}}</li>
-			  	<li><span class="category">Outlets:</span> {{outlets}}</li>
-			  	<li><span class="category">Couch:</span> {{couch}}</li>
-			  	<li><span class="category">Large Table:</span> {{largetable}}</li>
-			  	<li><span class="category">Outdoor Seating:</span> {{outdoorseating}}</li>
-			  	<li><span class="category">Brewing:</span> {{brewing}}</li>
+			  	<li><span class="category">Details:</span> {{details}}</li>
 			  	<li><span class="category">Contributed By:</span> <a href="http://www.twitter.com/{{contributerstwitter}}" target="_blank">@{{contributerstwitter}}</a></li>
 		  	</ul>
 		  	<ul>
@@ -115,7 +110,7 @@
 	<script type="text/javascript">
 	  document.addEventListener('DOMContentLoaded', function() {
 	  	var gData
-	  	var URL = "0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c"
+	  	var URL = "0AmOvSo_yRaBddHY3bVNjTGJsT3ZHU3VXQ2tleENiWkE"
 			Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } ) 
 		}) 
 
